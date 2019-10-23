@@ -1,0 +1,152 @@
+body{
+	background-color: #e6e6e6;
+}
+main{
+	width: 98%;
+	margin: 0 auto;
+}
+.bg-dark{
+	background-color: black !important;
+}
+.border-dark{
+	border-color: black !important;
+}
+.btn-outline-danger:hover{
+	background-color: #e60000 !important;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.twitterborder{
+	border: 10px solid black;
+}
+.twitter-follow-button{
+	margin-top: 2%;
+}
+.bg-danger{
+	background-color: #e60000 !important;
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.rotate{
+	animation: rotate 7s linear infinite;
+	width: 40% !important;
+	margin: 0 auto;
+}
+.text-danger{
+	color: #e60000 !important;
+}
+.smallgrow:hover{
+	transform: scale(1.1);
+	transition: 2s ease-in-out;
+}
+.grow:hover{
+	font-size: 1.5em !important;
+	transform: scale(1.3);
+	transition: 2s ease-in-out;
+}
+header img{
+	width: 100%;
+}
+nav ul li a{
+	font-size: 1em !important;
+}
+nav ul li a:hover{
+	color: #e60000 !important;
+	text-decoration: none;
+}
+h1{
+	font-size: 1.5em !important;
+}
+h2{
+	font-size: 1.5em !important;
+}
+section p{
+	font-size: 1em !important;
+}
+aside hr{
+	color: white !important;
+}
+footer div a{
+	font-size: .8em;
+}
+footer div:nth-child(2) a:hover{
+	color: #e60000 !important;
+	text-decoration: none;
+}
+footer div p{
+	font-size: .8em;
+}
+.youtube-container{		/*youtube container for responsive embedded videos*/
+	position: relative;
+    padding-top: 56.25%;
+    margin-bottom: -10%;
+}
+.responsive-youtube{	/*makes embedded youtube videos center aligned and responsive*/
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+}
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+}
+
+.fa-facebook {
+ 	background: #e60000;
+ 	color: white;
+}
+.fa-twitter {
+ 	background: #e60000;
+  	color: white;
+}
+.social_media{
+	margin-top: 1%;
+	text-align: center;	
+}
+aside div p{
+	font-size: .9em;
+}
+@media only screen and (max-width: 770px){
+/*	.navbar{
+		max-height: 20px !important;
+		padding-top: 0 !important;
+	}*/
+	nav ul li a{
+		font-size: .9em !important;
+	}
+}
+@media only screen and (max-width: 576px){
+	nav ul li a{
+		font-size: 1.9vw !important;
+	}
+}
+@media only screen and (max-width: 450px){
+	h1{
+		font-size: .9em !important;
+	}
+	section p{
+		font-size: .8em !important;
+	}
+	footer div:nth-child(2) a{
+		font-size: .5em !important;
+	}
+}
+@keyframes rotate{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform: rotateY(360deg);
+	}
+}
